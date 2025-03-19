@@ -1,5 +1,6 @@
 # Intentionality  
-Intentionality is a local budgeting website that allows its users to choose what percentage of their income to allocate to needs, savings, investments, and savings categories. The website utilizes a local database to store values such as budget category balances and budget allocation percentages.
+Intentionality is a local budgeting website that allows its users to choose what percentage of their income to allocate to needs, savings, investments, and savings categories. The website utilizes a local database to store values such as budget category balances and budget allocation percentages.  
+This website is meant to help adults maneuver with improved intentions toward their finances.
 
 ## To use  
 -My "intentionality.sql" file includes a link on how to install and use phpMyAdmin to locally host a database.  
