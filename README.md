@@ -8,4 +8,4 @@ This website is meant to help adults maneuver with improved intentions toward th
 -I additionally use MAMP to start my SQL server.
 
 ## Future updates
--I would love to remotely host a database for user data so that users do not have to go through so many steps to properly use my website.
+-I am excited to remotely host a database for user data so that I can publish this website to a public domain and users will not have to go through so many steps to properly use my website.
