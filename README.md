@@ -7,4 +7,4 @@
 -I additionally use MAMP to start my SQL server.
 
 ## Future updates
--Remotely hosting a database for user data so that users do not have to go through so many steps to host their own database to properly use my website.
+-Remotely hosting a database for user data so that users do not have to go through so many steps to properly use my website.
