@@ -15,10 +15,10 @@ if (isset($_POST['login'])) {
 	$password = validate($_POST['password']);
 
 	if(empty($username)) {
-		header("Location: login.php?error=Username is required");
+		header("Location: index.php?error=Username is required");
 	    exit();
 	}else if(empty($password)){
-        header("Location: login.php?error=Password is required");
+        header("Location: index.php?error=Password is required");
 	    exit();
 	}else{
 		//Gathers relevant rows from the database that match inputted username
@@ -31,16 +31,16 @@ if (isset($_POST['login'])) {
             	header("Location: home.php");
 		        exit();
             }else{
-				header("Location: login.php?error=Incorrect username or password");
+				header("Location: index.php?error=Incorrect username or password");
 		        exit();
 			}
         }else{
-			header("Location: login.php?error=Incorrect username or password");
+			header("Location: index.php?error=Incorrect username or password");
 	        exit();
 		}
 	}
 }else{
-	header("Location: login.php");
+	header("Location: index.php");
 	exit();
 }
 ?>
