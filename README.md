@@ -1,11 +1,5 @@
 # Intentionality  
-Intentionality is a local budgeting website that allows its users to choose what percentage of their income to allocate to needs, savings, investments, and savings categories. The website utilizes a local database to store values such as budget category balances and budget allocation percentages.  
-This website is meant to help adults maneuver with improved intentions toward their finances.
+Intentionality is a budgeting website that allows its users to choose what percentage of their income to allocate to needs, savings, investments, and savings categories. The website utilizes a remote database to store values such as budget category balances and budget allocation percentages.  
+This website is meant to help adults maneuver with improved intentions toward their finances.  
 
-## To use  
--My "intentionality.sql" file includes a link on how to install and use phpMyAdmin to locally host a database.  
--You can copy and paste the SQL code for the creation of my table to store user data from the "intentionality.sql" file as well.  
--I additionally use MAMP to start my SQL server.
-
-## Future updates
--I am excited to remotely host a database for user data so that I can publish this website to a public domain and users will not have to go through so many steps to properly use my website.
+I have included all of the php and css files that I used to create this website, except with "db.php" as a version that instead works for a local database set up on a server "localhost:8889", as I do not wish to share the username and password to the remote database that I created.
